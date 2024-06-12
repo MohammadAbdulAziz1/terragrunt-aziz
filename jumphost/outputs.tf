@@ -1,6 +1,9 @@
 output "jumphost_public_ip" {
   value = module.landing_zone.jumphost_public_ip
 }
+output "vpc_created" {
+  value = module.landing_zone.vpc_created
+}
 output "vm_created" {
   value = module.landing_zone.vm_created
 }

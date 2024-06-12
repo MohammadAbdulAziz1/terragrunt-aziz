@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"vpc","Source":"./modules/vpc","Dir":"modules/vpc"},{"Key":"vpc.subnets","Source":"./subnets","Dir":"modules/vpc/subnets"},{"Key":"vpc.subnets.firewalls","Source":"./firewalls","Dir":"modules/vpc/subnets/firewalls"}]}
