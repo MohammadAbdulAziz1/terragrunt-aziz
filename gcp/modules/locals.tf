@@ -4,4 +4,5 @@ locals {
     environment = "test"
   }
    labels = merge(local.default_labels, var.custom_labels)
+   
 }

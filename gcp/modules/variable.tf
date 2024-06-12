@@ -26,6 +26,13 @@ variable "env" {
   type = list(string)
 }
 variable "custom_labels" {
+  type = any
+  
+  default = {
+    environment = "production"
+    purpose     = "jump-server"
+    
+  }
   
 }
 #network
@@ -66,7 +73,7 @@ variable "protocol" {
   default = "all"
 }
 variable "source_ranges" {
-
+  default  = ["0.0.0.0/0"]
 }
 #vpn gateway
 variable "vpn_gw_name" {
