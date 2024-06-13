@@ -5,10 +5,10 @@ variable "subnets" {
 variable "vpc_name" {
   type = string
 
-  validation {
-    condition     = length(var.vpc_name) > 0
-    error_message = "VPC network name must not be empty."
-  }
+  # validation {
+  #   condition     = length(var.vpc_name) > 0
+  #   error_message = "VPC network name must not be empty."
+  # }
 }
 variable "region" {
   type = string
